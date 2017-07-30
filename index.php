@@ -1,3 +1,4 @@
+<?php include_once("analyticstracking.php") ?>
 <?
 
 function ipBlock($ip, $ipList) {
@@ -123,7 +124,6 @@ echo "
 <meta http-equiv='content-type' content='text/html; charset=euc-kr'>
 <meta name='author' content='PiNull, null@llun.com'>
 </head>
-
 <frameset rows='0, 1*' border='0'>
     <frame src='blank.html' scrolling='no' noresize>
     <frame src='op2.php'>

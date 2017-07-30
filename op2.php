@@ -155,6 +155,7 @@ function MM_openBrWindow(theURL,winName,features) { //v2.0
 </head>
 
 <body bgcolor="#666666" text="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" oncontextmenu="return false">
+<?php include_once("analyticstracking.php") ?>
 <div align=center>
 
 <!-- start -->
@@ -231,7 +232,7 @@ else {echo"
             <b><a href="#" onClick="MM_openBrWindow('theme_30.html','','scrollbars=no,width=820,height=420')">XXX</a></b>.
 -->
 	    &amp; To be continued<!--discontinue-->..
-            <b>Birthday: D<script language="JavaScript" src="dday.php?date=2016-3-6"></script></b>,	    
+            <b>Birthday: D<script language="JavaScript" src="dday.php?date=2018-3-6"></script></b>,	    
 	    <b>D<script language="JavaScript" src="dday.php?date=1985-3-6"></script></b> ::
 	    <b>D<script language="JavaScript" src="dday.php?date=2014-8-8"></script></b>
             <br>(<?=$today_text?> / <?=$total_text?>)</div>
