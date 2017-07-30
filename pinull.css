@@ -1,0 +1,25 @@
+	BODY, table, tr, td, input, textarea, select {
+	        font-family: ±¼¸², verdana;
+	        font-size: 9pt;
+	      }
+            A:link {color:#333333;text-decoration:none;}
+            A:visited {color:#333333;text-decoration:none;}
+            A:active {color:#333333;text-decoration:none;}
+            A:hover {color:gray;text-decoration:none;}
+            .theme { color: #003300; font-size: 7pt; font-family: Verdana, Arial, Helvetica, sans-serif }
+            .mini { color: #FFFFFF; font-size: 8pt; font-family: Verdana, Arial, Helvetica, sans-serif }
+            .counter { color: #FFFFFF; font-size: 7pt; font-weight:bold; font-family: Verdana, Arial, Helvetica, sans-serif }
+            .bg_l {background-image:url("http://llun.com/v2/images/b_l.gif"); Background-repeat:no-repeat}
+            .bg {background-image:url("http://llun.com/v2/images/b.gif"); Background-repeat:no-repeat}
+            .bg_r {background-image:url("http://llun.com/v2/images/bottom_r.gif"); Background-repeat:no-repeat}
+
+BODY
+{
+    SCROLLBAR-FACE-COLOR: #777777;
+    SCROLLBAR-HIGHLIGHT-COLOR: #DCDCDC;
+    SCROLLBAR-SHADOW-COLOR: #DCDCDC;
+    SCROLLBAR-3DLIGHT-COLOR: #777777;
+    SCROLLBAR-ARROW-COLOR: #ffffff;
+    SCROLLBAR-TRACK-COLOR: #999999;
+    SCROLLBAR-DARKSHADOW-COLOR: #777777
+}
